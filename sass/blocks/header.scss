@@ -1,0 +1,12 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.header__left {
+  grid-column: span 11;
+}
+
+.header__right {
+  grid-column: span 5;
+}
