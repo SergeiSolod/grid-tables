@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.report {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 26.6667px;
+    margin: 0px 0px 20px 0px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: 18% 40%;
+}
+
+.name > div {
+    padding: 5px 8px;
+}
+
+.name > div.name-information-grey {
+    background-color: #d9d9d9;
+}
+
+.name > div.name-top-white-bold {
+    display: flex;
+    grid-column: 2/4;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.brand {
+    display: grid;
+    grid-template-columns: 18% 12% 12%;
+    padding-bottom: 20px;
+}
+
+.brand > div {
+    padding: 5px 8px;
+}
+
+.brand > div.brand-information-white {
+    color: white;
+    background-color: white;
+    padding: 1em;
+}
+
+
+.brand > div.brand-information-grey {
+    background-color: #d9d9d9;
+}
+
+.brand > div.brand-information-normal {
+    text-align: right;
+}
+
+.code-operations {
+    display: grid;
+    grid-template-columns: 8% 18% 8% 8% 18% 10%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.code-operations > div {
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+}
+
+.code-operations > div.code-operations-topbot {
+    background-color: #d9d9d9;
+    font-weight: 600;
+}
+
+.transactions {
+
+}
+
+.transactions-heading-textup {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.transactions-heading-textdown {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    font-size: 13px;
+}
+
+.transactions-tables {
+    display: grid;
+    grid-template-columns: 7% 20% 20% 4% 7% 7% 7% 7% 7% 7% 7%;
+    text-align: center;
+    grid-auto-rows: minmax(auto, auto);
+
+}
+
+.transactions-tables > div {
+    border: 1px solid #d9d9d9;
+    padding: 1em;
+}
+
+.transactions-tables > div.transactions-tables-top {
+    background-color: #d9d9d9;
+    font-weight: 600;
+    white-space: pre-line;
+    padding: 3px
+}
+
+.transactions-tables > div.accrued {
+    grid-column: 5/7;
+}
+
+.transactions-tables > div.written {
+    grid-column: 7/9;
+}
+
+.transactions-tables > div.experimented {
+    grid-column: 9/11;
+}
+
+.transactions-tables > div.date {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding-top: 1em;
+}
+
+.transactions-tables > div.merchant {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-top: 1em;
+}
+
+.transactions-tables > div.account {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    padding-top: 1em;
+}
+
+.transactions-tables > div.pos {
+    grid-column: 4/5;
+    grid-row: 1/3;
+    padding-top: 1em;
+}
+
+.transactions-tables > div.qty1 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.transactions-tables > div.amount1 {
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+.transactions-tables > div.qty2 {
+    grid-column: 7/8;
+    grid-row: 2/3;
+}
+
+.transactions-tables > div.amount2 {
+    grid-column: 8/9;
+    grid-row: 2/3;
+}
+
+.transactions-tables > div.qty3 {
+    grid-column: 9/10;
+    grid-row: 2/3;
+}
+
+.transactions-tables > div.amount3 {
+    grid-column: 10/11;
+    grid-row: 2/3;
+}
+
+.transactions-tables > div.balance {
+    grid-column: 11/12;
+    grid-row: 1/3;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.transactions-tables > div.transactions-tables-center {
+    padding: 1em;
+    background-color: white;
+    white-space: pre-line;
+}
+
+.transactions-tables > div.transactions-tables-bottom {
+    background-color: #d9d9d9;
+    white-space: pre-line;
+    padding: 5px 8px 2px 8px;
+}

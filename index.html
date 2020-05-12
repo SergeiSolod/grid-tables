@@ -1,72 +1,384 @@
-<!DOCTYPE html>
-<!--5 lesson 14:44-->
-<html lang="ru">
+<!doctype html>
+<html lang="RU-ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>DSGN</title>
-    <link rel="stylesheet" href="css/style.min.css" type="text/css"/>
-    <script src="js/all.min.js"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="container">
-    <header class="header">
-        <div class="header__left">
-            <img
-                    class="header__logo"
-                    src="/img/logo.png"
-                    alt="Logo"
-                    srcset="/img/logo.png 1x,
-                    /img/logo-2x.png 2x"
-            >
-            <p class="header__slogan">ASSOCIATES<br> STUDIO<br> DESIGN</p>
-            <ul class="header__socials socials">
-                <li class="social__element">
-                    <a class="socials__link" area-label="Facebook" href="#">
-                        <svg class="socials__facebook">
-                            <use xlink:href="/img/symbol/sprite.svg#fb"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__element">
-                    <a class="socials__link" area-label="Twitter" href="#">
-                        <svg class="socials__twitter">
-                            <use xlink:href="/img/symbol/sprite.svg#twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__element">
-                    <a class="socials__link" area-label="Linkedin" href="#">
-                        <svg class="socials__linkedin">
-                            <use xlink:href="/img/symbol/sprite.svg#linked"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__element">
-                    <a class="socials__link" area-label="Google plus" href="#">
-                        <svg class="socials__google">
-                            <use xlink:href="/img/symbol/sprite.svg#google"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="header__right">
-            <p class="header__address">
-                90802 California<br>
-                Long beach<br>
-                PO Box 68789<br>
-                300 East Ocean<br>
-                Boulevard
-            </p>
-            <p class="header__contacts">
-                <a class="header__tel" href="tel">+64 9 345 6758</a>
-                <br>
-                <a class="header__mail" href="mailto:info@dsgn-studio.com">info@dsgn-studio.com</a>
-            </p>
-        </div>
-    </header>
+<span class="report">ОТЧЕТ по операциям с 26.03.2020 по 31.03.2020</span>
+
+<div class="name">
+    <div class="name-information-grey">Бренд:</div>
+    <div class="name-top-white-bold">brand-11b89382-8329-4fcc-9299-167f2a9379be</div>
 </div>
+
+
+<div class="brand">
+
+    <div class="brand-information-white"></div>
+    <div class="brand-information-white"></div>
+    <div class="brand-information-white"></div>
+
+    <div class="brand-information-white"></div>
+    <div class="brand-information-grey">26.03.2020 00:00:00</div>
+    <div class="brand-information-grey">30.03.2020 23:59:59</div>
+
+    <div class="brand-information-grey">Активных кодов в обращении</div>
+    <div class="brand-information-normal">0</div>
+    <div class="brand-information-normal">105</div>
+
+    <div class="brand-information-grey">Доступный баланс</div>
+    <div class="brand-information-normal"></div>
+    <div class="brand-information-normal"></div>
+
+    <div class="brand-information-grey">USD</div>
+    <div class="brand-information-normal">-</div>
+    <div class="brand-information-normal">62970.00</div>
+
+    <div class="brand-information-grey">RUB</div>
+    <div class="brand-information-normal">-</div>
+    <div class="brand-information-normal">47621.00</div>
+</div>
+
+<span class="transactions-heading-textup">Операции с кодами</span>
+<div class="code-operations">
+    <div class="code-operations-topbot">Дата</div>
+    <div class="code-operations-topbot">Выпущено/ импортировано</div>
+    <div class="code-operations-topbot">Активировано</div>
+    <div class="code-operations-topbot">Отменено</div>
+    <div class="code-operations-topbot">Заблокировано (на 23:59:59)</div>
+    <div class="code-operations-topbot">Эксперировано</div>
+
+    <div class="code-operations-center">26.03.2020</div>
+    <div class="code-operations-center">105</div>
+    <div class="code-operations-center">105</div>
+    <div class="code-operations-center">-</div>
+    <div class="code-operations-center">-</div>
+    <div class="code-operations-center">-</div>
+
+    <div class="code-operations-topbot">Итого</div>
+    <div class="code-operations-topbot">105</div>
+    <div class="code-operations-topbot">105</div>
+    <div class="code-operations-topbot">0</div>
+    <div class="code-operations-topbot">0</div>
+    <div class="code-operations-topbot">0</div>
+</div>
+
+<div class="transactions">
+    <span class="transactions-heading-textup">Транзакции</span>
+    <span class="transactions-heading-textdown">Валюта: Российский рубль (RUB)</span>
+    
+    <div class="transactions-tables">
+
+
+        <div class="transactions-tables-top accrued">Начислено</div>
+        <div class="transactions-tables-top written">Списано</div>
+        <div class="transactions-tables-top experimented">Эксперировано</div>
+
+
+        <div class="transactions-tables-top date">Дата</div>
+        <div class="transactions-tables-top merchant">Мерчант</div>
+        <div class="transactions-tables-top account">Учетная запись</div>
+        <div class="transactions-tables-top pos">POS</div>
+        <div class="transactions-tables-top qty1">Кол-во</div>
+        <div class="transactions-tables-top amount1">Сумма</div>
+        <div class="transactions-tables-top qty2">Кол-во</div>
+        <div class="transactions-tables-top amount2">Сумма</div>
+        <div class="transactions-tables-top qty3">Кол-во</div>
+        <div class="transactions-tables-top amount3">Сумма</div>
+        <div class="transactions-tables-top balance">Баланс</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-bottom">Итого</div>
+        <div class="transactions-tables-bottom"></div>
+        <div class="transactions-tables-bottom"></div>
+        <div class="transactions-tables-bottom"></div>
+        <div class="transactions-tables-bottom">934</div>
+        <div class="transactions-tables-bottom">258588.00</div>
+        <div class="transactions-tables-bottom">1582</div>
+        <div class="transactions-tables-bottom">-210967.00</div>
+        <div class="transactions-tables-bottom">0</div>
+        <div class="transactions-tables-bottom">0.00</div>
+        <div class="transactions-tables-bottom">47621.00</div>
+    </div>
+
+
+    <span class="transactions-heading-textdown">Валюта: Доллар США (USD)</span>
+
+    <div class="transactions-tables">
+
+        <div class="transactions-tables-top accrued">Начислено</div>
+        <div class="transactions-tables-top written">Списано</div>
+        <div class="transactions-tables-top experimented">Эксперировано</div>
+
+
+        <div class="transactions-tables-top date">Дата</div>
+        <div class="transactions-tables-top merchant">Мерчант</div>
+        <div class="transactions-tables-top account">Учетная запись</div>
+        <div class="transactions-tables-top pos">POS</div>
+        <div class="transactions-tables-top qty1">Кол-во</div>
+        <div class="transactions-tables-top amount1">Сумма</div>
+        <div class="transactions-tables-top qty2">Кол-во</div>
+        <div class="transactions-tables-top amount2">Сумма</div>
+        <div class="transactions-tables-top qty3">Кол-во</div>
+        <div class="transactions-tables-top amount3">Сумма</div>
+        <div class="transactions-tables-top balance">Баланс</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-center">26.03.2020</div>
+        <div class="transactions-tables-center">merchant#0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">account#0.0-11b89382-8329-4fcc-9299-167f2a9379be</div>
+        <div class="transactions-tables-center">-</div>
+        <div class="transactions-tables-center">7</div>
+        <div class="transactions-tables-center">2749.00</div>
+        <div class="transactions-tables-center">9</div>
+        <div class="transactions-tables-center">-2348.00</div>
+        <div class="transactions-tables-center">0</div>
+        <div class="transactions-tables-center">0.00</div>
+        <div class="transactions-tables-center">401.00</div>
+
+        <div class="transactions-tables-bottom">Итого</div>
+        <div class="transactions-tables-bottom"></div>
+        <div class="transactions-tables-bottom"></div>
+        <div class="transactions-tables-bottom"></div>
+        <div class="transactions-tables-bottom">934</div>
+        <div class="transactions-tables-bottom">258588.00</div>
+        <div class="transactions-tables-bottom">1582</div>
+        <div class="transactions-tables-bottom">-210967.00</div>
+        <div class="transactions-tables-bottom">0</div>
+        <div class="transactions-tables-bottom">0.00</div>
+        <div class="transactions-tables-bottom">47621.00</div>
+    </div>
+    </div>
 </body>
 </html>
-
